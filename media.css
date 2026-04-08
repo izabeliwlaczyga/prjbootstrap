@@ -1,0 +1,24 @@
+@media(max-width:768px){
+    .sidebar span{
+        display: none;
+    }
+
+    .sidebar{
+        width: 70px;
+    }
+
+    .sidebar ul{
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .navbar{
+        width: calc((100% - 70px)) ;
+        left: 70px;
+    }
+
+    .content-mai{
+        width: calc(100% - 70px);
+        left: 1rem;
+    }
+}
